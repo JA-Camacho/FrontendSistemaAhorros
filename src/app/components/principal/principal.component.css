@@ -1,0 +1,22 @@
+/* Agrega estilos para la clase "botones" */
+.botones {
+    display: flex;  
+    justify-content: space-around; /* Espacio alrededor de los elementos */
+  }
+  
+  /* Estilos para cada tarjeta dentro de la clase "botones" */
+  .botones .card {
+    margin: 10px; /* Añade espacio alrededor de cada tarjeta */
+    width: 18rem; /* Ancho inicial de las tarjetas */
+  }
+  
+  /* Estilos para la imagen dentro de cada tarjeta */
+  .botones .card img {
+    max-width: 100%; /* Asegura que la imagen no se salga del límite de la tarjeta */
+  }
+  
+  /* Estilos para el botón dentro de cada tarjeta */
+  .botones .card .btn {
+    width: 100%; /* Asegura que el botón ocupe el ancho completo de la tarjeta */
+  }
+  
